@@ -42,6 +42,38 @@ body {
   font-weight: 400;
   color: #555;
 }
+/* -----------------REUSABLE ELEMENTS------------------------ */
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: auto;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid-2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.heading-primary {
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #d94a0d;
+  margin-bottom: 1rem;
+}
 
 .btn-orange1:link,
 .btn-orange1:visited {
@@ -62,6 +94,7 @@ body {
 }
 
 /* -------------HEADER SECTION -------------------*/
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -112,6 +145,7 @@ body {
 }
 
 /* -------------HERO SECTION-------------- */
+
 .section-hero {
   background-color: #fefefe;
   padding: 4.8rem 0 9.6rem 0;
@@ -124,14 +158,6 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 9.9rem;
   align-items: center;
-}
-
-.heading-primary {
-  font-size: 6.2rem;
-  font-weight: 700;
-  line-height: 1.1;
-  color: #d94a0d;
-  margin-bottom: 1rem;
 }
 
 .hero-descroption {
@@ -151,10 +177,30 @@ body {
 
 .hero-img {
   width: 100%;
-  border-radius: 100px;
-}
-
-.career-img {
-  width: 100%;
   border-radius: 50px;
 }
+
+/* ------------- WORKS SECTION-------------- */
+
+.section-works {
+  padding: 9.6rem 0;
+  background-color: #555;
+}
+
+.section-works div div {
+  padding: 100px;
+  font-size: 50px;
+  background-color: #f5f5f5;
+}
+/* .section-works div:nth-child(1) {
+  background-color: aqua;
+}
+.section-works div:nth-child(2) {
+  background-color: blue;
+}
+.section-works div:nth-child(3) {
+  background-color: violet;
+}
+.section-works div:nth-child(4) {
+  background-color: yellow;
+} */
