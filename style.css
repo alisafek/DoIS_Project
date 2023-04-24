@@ -288,23 +288,22 @@ body {
   padding: 9.6rem 0 9.6rem 0;
   background-color: #fefefe;
 }
-/* 
-.first-descriprion {
-  margin-bottom: 4.8rem;
-  text-align: center;
-}
-.step-img-box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+.section-ourworks-examples {
+  /* padding: 9.6rem 0; */
 }
 
-.step-img {
-  width: 75%;
-  border-radius: 50px;
+.example-img {
+  width: 100%;
 }
 
-.step-descriprion {
+.example-name {
+  font-size: 2.4rem;
+  color: #02192c;
+  font-weight: 600;
+  margin: 2rem 0 3rem 0;
+}
+
+.example-text {
   font-size: 1.8rem;
-  line-height: 1.5;
-} */
+}
