@@ -181,7 +181,8 @@ body {
 
 .section-hero {
   background-color: #fefefe;
-  padding: 4.8rem 0 4.8rem 0;
+  /* padding: 4.8rem 0 4.8rem 0; */
+  padding: 9.6rem 0 9.6rem 0;
   /* padding: 4.8rem 0 9.6rem 0; */
 }
 .hero {
@@ -210,7 +211,8 @@ body {
 
 .section-about {
   /* padding: 9.6rem 0; */
-  padding: 4.8rem 0 9.6rem 0;
+  /* padding: 4.8rem 0 9.6rem 0; */
+  padding: 9.6rem 0 9.6rem 0;
   background-color: #f5f5f5;
 }
 
@@ -261,6 +263,7 @@ body {
   text-transform: uppercase;
   font-weight: 600;
   text-align: center;
+  color: #555;
 }
 
 .logos {
@@ -272,5 +275,5 @@ body {
 .logos img {
   height: 3.5rem;
   filter: brightness(0);
-  opacity: 35%;
+  opacity: 40%;
 }
