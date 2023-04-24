@@ -277,3 +277,34 @@ body {
   filter: brightness(0);
   opacity: 40%;
 }
+
+/* ------------- SERVICES SECTION-------------- */
+
+/* ------------- OUR WORKS SECTION-------------- */
+
+.section-ourworks {
+  /* padding: 9.6rem 0; */
+  /* padding: 4.8rem 0 9.6rem 0; */
+  padding: 9.6rem 0 9.6rem 0;
+  background-color: #fefefe;
+}
+/* 
+.first-descriprion {
+  margin-bottom: 4.8rem;
+  text-align: center;
+}
+.step-img-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.step-img {
+  width: 75%;
+  border-radius: 50px;
+}
+
+.step-descriprion {
+  font-size: 1.8rem;
+  line-height: 1.5;
+} */
