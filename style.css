@@ -70,6 +70,10 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid-5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .heading-primary,
 .heading-secondary {
   line-height: 1.1;
@@ -383,4 +387,10 @@ body {
   text-align: center;
   font-size: 1.8rem;
   /* font-weight: 500; */
+}
+
+/* -------------FOOTER SECTION -------------------*/
+.footer {
+  padding: 9.6rem 0;
+  background-color: #043157;
 }
