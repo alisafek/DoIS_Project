@@ -396,12 +396,34 @@ body {
   /* font-weight: 500; */
 }
 
+/* -------------CONTACT FORM SECTION -------------------*/
+.contact-form {
+  padding: 9.6rem 0;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 3fr;
+  /* background-color: #ffbd63; */
+  /* background-color: #e8926e; */
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 13px;
+
+  background-image: linear-gradient(to right bottom, #ffbd63, #e16e3d);
+  /* background-image: linear-gradient(#d94a0d, #ffbd63); */
+  height: 55rem;
+}
+.form-text-box {
+  /* background-color: #fefefe; */
+}
+
 /* -------------FOOTER SECTION -------------------*/
 /* .grid-footer {
   grid-template-columns: 2fr 2fr 1fr 1fr 1fr;
 } */
 
 .footer {
+  /* padding: 9.6rem 0 4.8rem 0; */
   padding: 9.6rem 0;
   background-color: #043157;
 }
