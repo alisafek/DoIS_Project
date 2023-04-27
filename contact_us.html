@@ -37,6 +37,7 @@
     </header>
 
     <main>
+      <!---------------------- HERO SECTION  ---------------->
       <section class="section-hero">
         <div class="hero">
           <div class="hero-text-box">
@@ -63,9 +64,68 @@
 
       <section class="section-contact-form">
         <div class="container">
-          <div class="contact-form">
-            <div class="form">
-              <div class="form-text-box">Contact Form</div>
+          <div class="form">
+            <div class="form-text-box">
+              <!-- <span class="subheading"> NAME & COMPANY* </span>
+              <span class="subheading"> EMAIL* </span>
+              <span class="subheading"> TELL US ABOUT YOUR PROJECT * </span> -->
+
+              <form class="contact-form" action="#">
+                <div>
+                  <label for="full-name">Full name</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="Anna Pavlova"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="company">Enter your company name if there</label>
+                  <input
+                    id="company"
+                    type="text"
+                    placeholder="Open AI"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="email">Email</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="annapavlova@gmail.com"
+                    required
+                  />
+                </div>
+                <div>
+                  <label for="subject">Subject</label>
+                  <select id="subject" required>
+                    <option value="">Please choose one option</option>
+                    <option value="jop">Jop</option>
+                    <option value="parnership">Parnership</option>
+                    <option value="comments, concerns, & ideas">
+                      Comments, concerns, & ideas
+                    </option>
+                    <option value="press">Press</option>
+                    <option value="advertising">Advertising</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="message">Feel free to ask any questions</label>
+                  <input
+                    id="message"
+                    type="text"
+                    placeholder="Message"
+                    required
+                  />
+                </div>
+                <button class="btn-contact">SUBMIT</button>
+              </form>
+              <!-- <a class="main-nav-link nav-cta" href="contact_us.html"
+                ><strong>SUBMIT</strong>
+              </a> -->
             </div>
           </div>
         </div>
