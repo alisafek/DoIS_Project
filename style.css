@@ -17,6 +17,8 @@ COLOR
 Grey #555
 Orange #d94a0d
 Blue #043157
+Yellow #FFBD63
+Service text #191617
 
 SHADOWS
 
@@ -89,6 +91,26 @@ body {
   font-weight: 700;
   color: #d94a0d;
   margin-bottom: 1rem;
+}
+
+.heading-services {
+  font-size: 5rem;
+  /* color: #191617; */
+  color: #19130a;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.subheading-services {
+  /* display: block; */
+  font-size: 2rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #fff8ef;
+  margin-bottom: 2.4rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
 
 .heading-secondary {
@@ -289,6 +311,7 @@ body {
   margin-bottom: 4.8rem;
   text-align: center;
 }
+
 .step-img-box {
   display: flex;
   align-items: center;
@@ -306,20 +329,6 @@ body {
   font-size: 1.8rem;
   line-height: 1.5;
 }
-
-/* .step-img-box::before {
-  content: "";
-  display: block;
-  width: 100%;
-  padding-bottom: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 25%;
-  z-index: -1;
-  background-color: #ffbd63;
-} */
 
 /* ------------- CLIENTS SECTION-------------- */
 .clients {
@@ -580,6 +589,39 @@ body {
 .contact-form *:focus {
   outline: none;
   box-shadow: 0 0 0 0.6rem rgba(255, 248, 239, 0.514);
+}
+
+/* -------------CONSULTING SERVICE SECTION -------------------*/
+.section-hero-services {
+  background-color: #ffbd63;
+  /* padding: 4.8rem 0 4.8rem 0; */
+  padding: 20rem 0 20rem 0;
+  /* padding: 4.8rem 0 9.6rem 0; */
+}
+
+.hero-services {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 9.9rem;
+  /* align-items: center; */
+  text-align: center;
+  /* background-color: #ffbd63; */
+}
+
+.service-descriprion {
+  /* margin-bottom: 4.8rem; */
+  text-align: center;
+}
+
+/* top / right / bottom/ left  
+or 
+top / horizontal / left  */
+
+.padding-services {
+  padding: 9.6rem 0 9.6rem 0 !important;
 }
 
 /* -------------FOOTER SECTION -------------------*/
