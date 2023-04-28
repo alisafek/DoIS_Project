@@ -94,7 +94,7 @@ body {
 }
 
 .heading-services {
-  font-size: 5rem;
+  font-size: 6.2rem;
   /* color: #191617; */
   color: #19130a;
   font-weight: 600;
@@ -104,7 +104,7 @@ body {
 
 .subheading-services {
   /* display: block; */
-  font-size: 2rem;
+  font-size: 2.2rem;
   line-height: 1.5;
   text-transform: uppercase;
   color: #fff8ef;
@@ -599,6 +599,13 @@ body {
   /* padding: 4.8rem 0 9.6rem 0; */
 }
 
+.section-about-services {
+  /* padding: 9.6rem 0; */
+  /* padding: 4.8rem 0 9.6rem 0; */
+  padding: 9.6rem 0 0rem 0;
+  /* background-color: #f5f5f5; */
+}
+
 .hero-services {
   max-width: 130rem;
   margin: 0 auto;
@@ -622,6 +629,59 @@ top / horizontal / left  */
 
 .padding-services {
   padding: 9.6rem 0 9.6rem 0 !important;
+}
+
+/* ---------------------- RESEARCH SECTION  ---------------- */
+
+/* .yellow-box {
+  background-color: rgba(255, 190, 99, 0.2);
+} */
+
+/* .grey-box {
+  background-color: #fbfbfb;
+} */
+
+.research {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #f5f5f5;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 13px;
+
+  height: 100%;
+
+  overflow: hidden;
+
+  margin: 9.6rem 0rem 9.6rem 0rem;
+}
+
+.research-img {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(149, 148, 148, 0.3),
+      rgba(102, 102, 102, 0.3)
+    ),
+    url("img/research1.jpg");
+  /* background-image: url("img/vacancies1.jpg"); */
+  background-size: cover;
+  background-position: center;
+}
+
+.research1-img {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(149, 148, 148, 0.3),
+      rgba(102, 102, 102, 0.3)
+    ),
+    url("img/research2.jpg");
+  /* background-image: url("img/vacancies1.jpg"); */
+  background-size: cover;
+  background-position: center;
+}
+
+.vacancies-text-box {
+  /* top / right / bottom/ left   */
+  padding: 8rem 10rem 5rem 5rem;
 }
 
 /* -------------FOOTER SECTION -------------------*/
