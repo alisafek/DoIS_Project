@@ -684,7 +684,7 @@ top / horizontal / left  */
   padding: 8rem 10rem 5rem 5rem;
 }
 
-/* -------------DESIGN SECTION -------------------*/
+/* ------------------DESIGN SECTION -------------------*/
 /* .step-img-box {
   display: flex;
   align-items: center;
@@ -701,6 +701,32 @@ top / horizontal / left  */
 
 .margin-bottom-big {
   margin-bottom: 9.6rem !important;
+}
+
+/* ------------------QUALITY ASSURANCE SECTION -------------------*/
+
+.qa-img {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(149, 148, 148, 0.3),
+      rgba(102, 102, 102, 0.3)
+    ),
+    url("img/qa1.jpg");
+  /* background-image: url("img/vacancies1.jpg"); */
+  background-size: cover;
+  background-position: center;
+}
+
+.qa1-img {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(149, 148, 148, 0.3),
+      rgba(102, 102, 102, 0.3)
+    ),
+    url("img/qa2.jpg");
+  /* background-image: url("img/vacancies1.jpg"); */
+  background-size: cover;
+  background-position: center;
 }
 
 /* -------------FOOTER SECTION -------------------*/
