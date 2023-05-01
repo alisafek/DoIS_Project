@@ -128,6 +128,16 @@ body {
   line-height: 1.2;
 }
 
+.heading-fourth {
+  display: block;
+  font-size: 2rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+  color: #d94a0d;
+  margin: 2.4rem 0 2.4rem;
+  font-weight: 600;
+}
+
 .subheading {
   display: block;
   font-size: 2rem;
