@@ -14,3 +14,12 @@ function readmore() {
     document.querySelector("h5").innerHTML = "";
   }
 }
+
+function readmore2() {
+  const heading = document.querySelector("h6");
+  if (heading.innerHTML === "") {
+    heading.innerHTML = "The page is not available now";
+  } else {
+    heading.innerHTML = "";
+  }
+}
