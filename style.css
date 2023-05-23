@@ -12,8 +12,7 @@ Default: 1
 1.05
 Text 1.6
 
-COLOR 
-
+COLORS:
 Grey #555
 Orange #d94a0d
 Blue #043157
@@ -927,10 +926,11 @@ top / horizontal / left  */
     height: 3.2rem;
   }
 
-  /* -MOBILE NAVIGATION-*/
+  /* ---------MOBILE NAVIGATION---------------*/
 
   .btn-mobile-nav {
     display: block;
+    z-index: 1000;
   }
 
   .main-nav {
@@ -1064,6 +1064,10 @@ top / horizontal / left  */
   .vacancies2-img {
     height: 14rem;
   }
+  /* 
+  button .btn-contact {
+    padding: 2rem 4.8rem;
+  } */
 
   .heading-third {
     margin-bottom: 1.6rem;

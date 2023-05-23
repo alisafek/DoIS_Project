@@ -1,6 +1,17 @@
+// Mobile navigation
+
+const btnMobnavElement = document.querySelector("btn-mobile-nav");
+const headerElement = document.querySelector(".header");
+btnMobnavElement.addEventListener("click", function () {
+  headerElement.classList.toggle("nav-open");
+});
+
+// For Our work page
 function notavailable() {
   alert("The page is not available now, work in progress");
 }
+
+// For Careers page
 
 function read() {
   document.querySelector("h4").innerHTML =
@@ -23,3 +34,10 @@ function readmore2() {
     heading.innerHTML = "";
   }
 }
+
+// For Footer section, current year setting
+// change the text content of an element
+
+const footeryearElement = document.querySelector(".footeryear");
+const currentYear = new Date().getFullYear();
+footeryearElement.textContent = currentYear;
