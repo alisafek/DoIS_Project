@@ -6,6 +6,35 @@ btnMobnavElement.addEventListener("click", function () {
   headerElement.classList.toggle("nav-open");
 });
 
+// Close mobile navigation
+
+// if (link.classList.contains("main-nav-link"))
+//   headerElement.classList.toggle("nav-open");
+
+//Sticky navbar
+
+const sectionHeroElement = document.querySelector(".section-hero");
+
+const observer = new IntersectionObserver(
+  function (entries) {
+    const entry = entries[0];
+    if (entry.isIntersecting === false) {
+      document.body.classList.add("sticky");
+    }
+
+    if (entry.isIntersecting === true) {
+      document.body.classList.remove("sticky");
+    }
+  },
+
+  {
+    root: null,
+    threshold: 0,
+    rootMargin: "-80px",
+  }
+);
+observer.observe(sectionHeroElement);
+
 // For Our work page
 function notavailable() {
   alert("The page is not available now, work in progress");
