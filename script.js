@@ -1,3 +1,9 @@
+// For Footer section, current year setting. Change year number content of the element
+
+const footeryearElement = document.querySelector(".footeryear");
+const currentYear = new Date().getFullYear();
+footeryearElement.textContent = currentYear;
+
 // Mobile navigation
 
 const btnMobnavElement = document.querySelector(".btn-mobile-nav");
@@ -87,12 +93,6 @@ function readmore2() {
     heading.innerHTML = "";
   }
 }
-
-// For Footer section, current year setting. Change year number content of the element
-
-const footeryearElement = document.querySelector(".footeryear");
-const currentYear = new Date().getFullYear();
-footeryearElement.textContent = currentYear;
 
 //BLog page. Sound API
 var audio = document.querySelector("audio");
